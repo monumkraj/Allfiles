@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <script>
+        function add()  {
+            let a = Number(document.getElementById("n1").value);
+            let b = Number(document.getElementById("n2").value);
+            alert(a+b);
+        }
+        function sub()  {
+            let a = Number(document.getElementById("n1").value);
+            let b = Number(document.getElementById("n2").value);
+            alert(a-b);
+        }
+        function Mul()  {
+            let a = Number(document.getElementById("n1").value);
+            let b = Number(document.getElementById("n2").value);
+            alert(a*b);
+        }
+        function div()  {
+            let a = Number(document.getElementById("n1").value);
+            let b = Number(document.getElementById("n2").value);
+            alert(a/b);
+        }
+    </script>
+</head>
+<body>
+    <div>
+    <from>
+        <label>a</label>
+        <input name="a" type="text"  id = "n1" />
+        <br/><br/>
+        <label >b</label>
+        <input  name="b" type="text"  id = "n2" />
+        <br/><br/>
+        <input type="submit" value="Add" onclick="add()" />
+        <input type="submit"value=" sub" onclick="sub()" />
+        <input type="submit" value=" Mul" onclick="Mul()" />
+        <input type="submit" value=" Div" onclick="div()" />
+
+
+
+        <!-- <input type="submit" onclick="sub()" /> -->
+
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+div{
+    color: red;
+    background-color: yellowgreen;
+    width: 40px;
+    height: 40px;
+    font-size: medium;
+    font-family: 'Times New Roman';
+
+}
+div{
+    background-color: yellowgreen;
+}
+#d1{
+    background-color: red;
+
+}
+#d2{
+    background-color: aquamarine;
+}
+#d3{
+    background-color: blue;
+}
+#d4{
+    background-color: aqua;
+}
+#d5{
+    background-color: blueviolet;
+}
+.divclass{
+    width: 40px;
+    height: 70px;
+
+    +
+
+}

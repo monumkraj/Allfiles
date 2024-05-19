@@ -1,0 +1,27 @@
+/*{
+    color: red;
+} */
+/*tag selecter*/
+/*p{
+    color: blue;
+}*/
+
+/*#p1{
+    color: blueviolet;
+}*/
+
+/*.c1{
+    color: yellowgreen;
+}*/
+
+/*group selecter */
+
+#p1{
+    color: chartreuse;
+}
+#p2{
+    color: brown;
+}
+#p3{
+    color: red;
+}

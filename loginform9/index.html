@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onclick="validation()" ; return false;>
+      <label>UserName</label><br />
+      <input type="text" id="u1" /><br />
+      <label>Password</label><br />
+      <input type="password" id="p1" /><br /><br />
+      <input type="submit" />
+      <p id="userpara"></p>
+      
+
+      <br />
+    </form>
+    <script>
+      function validation() {
+        let un = document.getElementById("u1").value;
+        let pwd = document.getElementById("p1").value;
+        let res=document.getElementById("userpara");
+        if (un.length <6  pwd.length > 8) {
+          alert("login success");
+          document.getElementById("userpara").innerHTML.un;
+          document.getElementById("pwdpara").innerHTML.pwd;
+          return false;
+        } else {
+          alert("login failure");
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>

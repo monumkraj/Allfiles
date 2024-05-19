@@ -1,0 +1,53 @@
+div{
+   width: 200px;
+   height: 200px;
+   margin-left: 100px;
+   margin-top: 100;
+   background-color: red;
+   border-radius: 210px;
+   background-image: Url("images.jpeg");
+   
+
+}
+div:hover{
+    opacity:0.5;
+    width: 300px;
+    height: 300px;
+    border-radius:300px ;
+    background-color:blue;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100;
+    background-color: red;
+    border-radius: 210px;
+    background-image: Url("images.jpeg");
+ }
+ div:hover{
+     opacity:0.5;
+     width: 300px;
+     height: 300px;
+     border-radius:300px ;
+     background-color:blue;
+ }
+ 
+div{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 100;
+    background-color: red;
+    border-radius: 210px;
+    background-image: Url("sample3.avif");
+ }
+ div:hover{
+     opacity:0.5;
+     width: 300px;
+     height: 300px;
+     border-radius:300px ;
+     background-color:blue;
+ }
+ 

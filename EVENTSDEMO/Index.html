@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <form  onsubmit="fun(event)">
+    <div>
+      MALE<input type="radio" name="gender" value="male" /><br/>
+      Female <input type="radio" name="gender" value="female" /><br/>
+      Outhers <input type="radio" name="gender" value="Outhers" /></br>
+      <input type="submit"  value="Submit"/>
+    </div>
+</form>
+<script>
+function fun(event){
+alert(event.target.gender.value);
+}
+</script>
+  </body>
+</html>

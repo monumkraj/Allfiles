@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.fav-muscians {
+}
+
+.Main_Head {
+  font-size: 30px;
+  width: 25%;
+  padding: 40px;
+  border: 10px solid green;
+  float: left;
+  background-color: aqua;
+}
+.Top-bOT {
+  font-size: 30px;
+  border: 10px solid black;
+  width: 25%;
+  padding: 40px;
+  float: right;
+  background-color: lightsalmon;
+}
+.bitch {
+  font-size: 30px;
+  border: 10px solid gray;
+  width: 25%;
+  padding: 40px;
+  float: left;
+  background-color: lightcyan;
+}
+.paganini {
+color: red;
+  font-size: 30px;
+  border: 10px solid rosybrown;
+  width: 25%;
+  padding: 40px;
+  float: left;
+  background-color: rgb(41, 137, 120);
+}
+.clearfix {
+  clear: both;
+  width: 50%;
+  float: right;
+  background-color: lightsalmon;
+}

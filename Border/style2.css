@@ -1,0 +1,43 @@
+nav {
+  background-color: rgb(167, 167, 171);
+}
+nav ul {
+  padding-left: 0px;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  border-bottom: 1px solid #444;
+  margin: 15px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+h2{
+  border: solid 2px;  
+  background-color: #c5a5ce;
+}
+#home {
+  display: inline-block;
+  font-size: 15x;
+  color: #333131;
+  padding: 10px;
+}
+#about {
+  display: inline-block;
+  font-size: 15px;
+  color: #333131;
+  padding: 10px;
+}
+#Contact {
+  display: inline-block;
+  font-size: 15px;
+  color: #333131;
+  padding: 10px;
+}
+section{
+    
+    margin-top: -10px;
+    border-bottom: 1px solid gray;
+    padding: 30px 30px;
+}

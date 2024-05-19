@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(105, 204, 98);
+    animation-name: sizeincre;
+    animation-duration: 20s;
+    border-radius: 100px;
+  }
+  @keyframes sizeincre{
+  10%{
+    background-color: red;
+    border-radius: 30px;
+  }
+  30%{
+    background-color: green;
+    border-radius: 10px;
+  }
+    50%{
+        background-color: blue;
+        border-radius: 10px;
+    }
+    70%{
+        background-color: yellow;
+
+    }
+    90%{
+        background-color: greenyellow;
+        border-radius: 15px;
+    }
+  }

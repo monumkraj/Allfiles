@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: -apple, sans-serif;
+}
+header {
+  border: 9px solid black;
+  width: 180%;
+  display: flex;
+  padding: 60px;
+  position: fixed;
+  justify-content: center;
+  text-wrap: nowrap;
+  gap: 3.3em color;
+  z-index: 1;
+  background-color: rgb(120, 107, 107);
+}
+#body1 {
+  position: absolute;
+  top: 15%;
+}
+#d6 {
+  width: 75vw;
+  margin-right: 89px;
+  margin-top: 10em;
+}
+
+#d1 {
+  margin-top: -90px;
+  border: 2px solid red;
+  padding: 4px;
+  height: 1cm;
+  width: 60%;
+  background-color: rgb(233, 188, 188);
+  text-align: center;
+  font-size-adjust: 1rem;
+  margin-left: -119%;
+  /* position: fixed; */
+}
+#d2 {
+  margin-top: 10px;
+  text-align: right;
+  margin-left: -40rem;
+  font-size: 1rem;
+}
+#c1 {
+  caret-shape: 30px;
+  float: left;
+  margin-left: -174rem;
+  margin-top: -34px;
+  margin-trim: -13px;
+  position: fixed;
+}
+p {
+  font-size: 30px;
+  margin-left: 60px;
+  text-size-adjust: 1;
+}
+#h4 {
+  margin-left: 19%;
+  margin: 40px;
+}
+/* .slideshow-container {
+  max-width: 1000%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* #p3{
+margin-left: 232px;
+margin: -12px;
+} */
+span {
+  margin-left: 1rem;
+  color: brown;
+}
+
+h1 {
+  text-align: start;
+  text-wrap: 26px;
+  margin-top: 13px;
+  margin-right: 1rem;
+  margin: 1rem;
+  font-size-adjust: 1;
+}
+h2 {
+  margin-left: 66rem;
+  margin-top: -37rem;
+  margin-right: 53rem;
+  font-size-adjust: 10px;
+}
+
+#d3 {
+  caret-shape: 20px;
+  margin-right: 23px;
+  margin-top: -94px;
+}
+#d4 {
+  margin-top: -108px;
+  margin-left: 20rem;
+  white-space: -27pre;
+}
+.form-group {
+  margin-top: 70px;
+  margin-left: 22cm;
+}
+
+.img {
+  border-radius: 70px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+}
+#d7 {
+  text-align: dowon;
+  border-radius: 70px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+}
+#d8 {
+  border-radius: 70px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+}
+#d9 {
+  border-radius: 70px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+}
+
+#d10 {
+  border-radius: 70px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+}
+.gridclass {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.div-6 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#mg-1 {
+  border-radius: 40px;
+  margin: 10px;
+  margin-left: 40px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+}
+
+/* #mg-2{
+   scroll-padding-block-end: 12px;
+  border-radius: 70px;
+  margin-top: 4%;
+  mask-image: url(croptop-5.jpg);
+  max-width: -90px;
+  width: 100%;
+  height: auto;
+} */
+/* .gridclass {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}  */
+.div-7 {
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+}
+#mg-2 {
+  border-radius: 70px;
+  margin-top: 6%;
+  margin-right: 64px;
+  mask-image: url(croptop-5.jpg);
+  margin: 30px;
+  width: 100%;
+  height: auto;
+  stop-opacity: 20px;
+}
+#mg-3 {
+  border-radius: 14px;
+  margin-top: -80px;
+  flex-wrap: wrap;
+  margin-right: 70px;
+  margin-left: -50px;
+  mask-image: url(croptop-5.jpg);
+  max-width: 1200px;
+  width: 140%;
+  height: 602px;
+  margin: 25px;
+}
+#mg-4 {
+  border-radius: 80px;
+  margin-top: -70px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: -40px;
+  mask-image: url(croptop-5.jpg);
+  max-width: 8000px;
+  width: 140%;
+  height: 602px;
+  margin: 10px;
+}
+#mg-5 {
+  text-size-adjust: 8%;
+}
+#gl {
+  margin: -20px;
+  margin-right: 170px;
+}
+b {
+  text-size-adjust: 3;
+  color: red;
+  margin-left: 55%;
+  font-size-adjust: 2;
+}
+main {
+  color: gray;
+  margin-left: 55%;
+  font-size: 27px;
+}
+a {
+  border-radius: 12px;
+  font-size: 35px;
+  margin-left: 55%;
+  padding: 1rem;
+}

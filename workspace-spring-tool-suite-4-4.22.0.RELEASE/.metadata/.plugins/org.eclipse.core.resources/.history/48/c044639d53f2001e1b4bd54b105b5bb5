@@ -1,0 +1,14 @@
+package com.kodnestproject1.controllar;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Demo {
+	@GetMapping(value="/greeet")
+	public String display(){
+		return "Hello!";
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+#d1 {
+  background-image: red;
+  background-color: yellow;
+  width: 150px;
+  height: 180px;
+  margin: 30px;
+}
+#d2 {
+  background-color: gray;
+  width: 150px;
+  height: 180px;
+  margin: 30px;
+}
+#d3 {
+  background-color: blue;
+  width: 150px;
+  height: 180px;
+  margin: 30px;
+}
+#d4 {
+  background-color: aqua;
+  width: 150px;
+  height: 180px;
+  margin: 30px;
+}
+#d5 {
+  background-color: blueviolet;
+  width: 150;
+  height: 180px;
+  margin: 30px;
+  flex-wrap: 20px;
+}
+#d6 {
+  background-color: chartreuse;
+  width: 150px;
+  height: 180px;
+  margin: 30px;
+}
+div {
+  width: 150px;
+  height: 180px;
+  display: flex;
+  margin: 100px;
+}
+.gridclass {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+ 
+}

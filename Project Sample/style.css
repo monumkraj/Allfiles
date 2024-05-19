@@ -1,0 +1,54 @@
+#d1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    background-image: URL('sample1.avif');
+    border-radius: 10PX;
+    border: 50PX;
+    border: red;
+    border: solid;
+    margin: -10px 100px;
+}
+#d2{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    background-image: URL('sample3.avif');
+    border-radius: 10PX;
+    border: 5PX;
+    border: red;
+    border: solid;
+    margin: -10px 100px;
+}
+#d3{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    background-image: URL('sample4.avif');
+    border-radius: 100PX;
+    border: red;
+    border: solid;
+    margin: -18px 100px;
+}
+#d4{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    background-image: URL('Sample6.avif');
+    border-radius: 10PX;
+    border: 50PX;
+    border: red;
+    border: solid;
+    margin: 100px 100px 100px 250px;
+}
+#d5{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    background-image: URL('Sample7.avif');
+    border-radius: 10PX;
+    border: 50PX;
+    border: red;
+    border: solid;
+    margin: 100px 100px 100px 250px;
+}

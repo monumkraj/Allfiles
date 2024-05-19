@@ -1,0 +1,33 @@
+/* ID Selexter*/
+#p1 {
+  color: blueviolet;
+}
+/* Class Selector*/
+.p2{
+    color: gray;
+}
+/* Univarsal Salector*/
+*{
+    color: green;
+}
+/* Tag Salector */
+p{
+    color: red;
+}
+/* child selector*/
+ul>li{
+    list-style-type: square;
+}
+/*kguygh*/
+p{
+    color: red;
+}
+/*pseudo class Selector*/
+p:hover{
+    color: bisque;
+}
+/* group Selector using with bold charecter*/
+#p1,
+.c1{
+    color: red;
+}

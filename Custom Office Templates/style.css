@@ -1,0 +1,40 @@
+body {
+  text-size-adjust: 200px;
+  font-style: oblique;
+}
+
+/* id selector */
+#p1 {
+  color: red;
+}
+
+/* class selector */
+.c1 {
+  color: orange;
+}
+
+/* Attribute selector */
+[type="text"] {
+  background-color: darkgray;
+}
+
+/* child selector */
+ul > li {
+  list-style-type: disc;
+}
+
+/* pseudo selector */
+#p2:hover {
+  color: green;
+}
+
+/* universal selector */
+* {
+  color: blueviolet;
+}
+
+/* group selector */
+.c2,
+.c1 {
+  color: orange;
+}

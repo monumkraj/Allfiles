@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat' ,'sans-serif';
+}
+.main-header{
+    background-color: #d0d6d5;
+}
+.main-section{
+    background-color: #e0e0e0;
+}
+.secondry{
+    color: #00705c;
+}
+h1{
+    
+    color:#00705c;
+}
+span{
+background-color: aqua;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+    
+        <label>
+           
+          <input      p>Name</p> type="text" placeholder="User Name" ><br></br>
+          <input type="text" placeholder="Password" User password><br></br>
+        <button type="submit">Submit</button>
+        </label><br>
+    
+    </form>
+    <script>
+function validate() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Check if username and password meet certain criteria
+    if (username == "your_username" && password == "your_password") {
+        alert("Login successful!");
+    } else {
+        alert("Invalid username or password. Please try again.");
+    }
+}
+    </script>
+</body>
+</html>

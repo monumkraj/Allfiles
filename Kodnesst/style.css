@@ -1,0 +1,16 @@
+div{
+    
+    text-align: center;
+    width: 200;
+    height: 50;
+    margin-left: 100px;
+    font:s;color: black;
+    border-radius: 100;
+}
+div::first-letter{
+    font-size: 20;
+    color:khaki;
+}
+
+
+
